@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Netflix Font', "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+                                                
+}
+body{
+    background-color: black;
+    
+}
+.main{
+    background-image: url("assest/Image/bg.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vw);
+
+}
+
+ .main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+ }
+ nav{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: centetr;
+    height: 62px;
+ }
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Netflix Font', "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 10px;
+    padding: 0 30px;
+}
+.hero> :first-child{
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+   font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.hero>:nth-child(2){
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+}
+.hero>:nth-child(3){
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-style: normal;
+font-weight: 400;
+color: rgb(255, 255, 255);
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+.separation{
+    /* background-color: rgb(168, 34, 34);
+    height: 5px; */
+    width: 98vw; 
+    height: 100px;  
+    border: solid 5px #3a0d0d;
+    border-color: #7d1818 transparent transparent transparent;
+    border-radius: 130%/150px 120px 0 0;
+
+}
